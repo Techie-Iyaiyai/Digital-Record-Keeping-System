@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    height:109vh;
+    background-position: center;
+    background: linear-gradient(to top,  rgba(26, 51, 45, 0.5)50%, rgba(26, 51, 45, 0.5)50%), url(2.png);
+    background-size: cover;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 80px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: aquamarine;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px ;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid aquamarine;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    text-decoration: none;
+    width: 240px;
+    height: 40px;
+    background: aquamarine;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background: white;
+    color:aquamarine;
+}
+.btn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+*main2{
+    margin: 0;
+    padding: 0;
+}
+.main2{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: aquamarine;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 63px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.42 ease-in-out;
+}
+ul li a:hover{
+    color: aquamarine;
+}
+.forgot_password{
+    color: white;
+}
